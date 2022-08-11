@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'cavier';
+    src: url(./Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'cavierb';
+    src: url(./Fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: 'cavierit';
+    src: url(./Fonts/CaviarDreams_Italic.ttf);
+}
+
+@font-face {
+    font-family: cavierbit;
+    src: url(./Fonts/CaviarDreams_BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: khandRlr;
+    src: url(./Fonts/Khand-Regular.ttf);
+}
+
+@font-face {
+    font-family: KhandSemi;
+    src: url(./Fonts/Khand-Semibold.ttf);
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fa3656;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+}
+
+.date {
+    font-family: 'cavierit', sans-serif;
+    margin-left: 80px;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'KhandSemi', sans-serif;
+    font-size: 60px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'cavierb', sans-serif;
+}
+h6 {
+    color: rgb(255, 255, 255);
+    font-family: 'cavierb', sans-serif;
+}
+
+p {
+    font-family: 'cavierb', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(238, 22, 103);
+    background-image: linear-gradient(to bottom right, rgb(238, 22, 103) , rgb(201, 7, 78));
+    background-attachment: fixed;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(253, 253, 253);
+}
+
+a:hover {
+    color: rgb(157, 104, 255);
+}
+
+a:active {
+    color: blue;
+}
+
+.c1 {
+    margin: 20px;
+}
+
+.c7 {
+    margin: 20px;
+    color: black;
+}
+
+.img-responsive7 {
+    width: 40%;
+    height: 30%;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.tex1 {
+    margin: 20px;
+}
+
+.tex2 {
+    color: black;
+    margin: 30px;
+    margin-top: 60px;
+    margin-left: -50px;
+}
+
+.container {
+    width: 1100px;
+}
+
+.h5 {
+    margin-left: 100px;
+}
+
+.img-responsive1 {
+    width: 70%;
+    height: 50%;
+    /* border-radius: 50%; */
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.tex3 {
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    margin-left: 110px;
+    margin-top: 0px;
+
+}
+
+.te3 {
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 0px;
+
+}
+
+#h4 {
+    margin-left: 110px;
+}
+
+#h5 {
+    margin-left: 110px;
+}
+
+.tex4 {
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    margin-left: 110px;
+    margin-top: 0px;
+
+}
+
+.te2 {
+    color: black;
+    margin: 20px;
+    margin-left: 80px;
+}
+
+#sm1 {
+    color: rgb(175, 175, 175);
+}
+
+.carousel-item {
+    align-items: center;
+    width: 80%;
+    margin-left: 100px;
+}
+
+
+.field{
+	width: 90%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+    margin-left: 50px;
+    
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 15%;
+	padding: 0.5rem 1rem;
+	background-image: linear-gradient(to right, rgb(247, 71, 71) , rgb(238, 22, 103));
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    margin-left: 50px;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
